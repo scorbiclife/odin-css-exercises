@@ -1,12 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: unset;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
 }
 
 .card {
+  display: flow-root;
   width: 400px;
   background: #fff;
   margin: 16px auto;
+}
+
+.card > * {
+  margin: 8px;
 }
 
 .title {
@@ -19,9 +33,12 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
+  display: block;
+  margin-inline: auto;
   background: white;
   border: 1px solid #eee;
 }

@@ -47,7 +47,7 @@ main {
   justify-content: start;
   align-items: center;
 
-  padding: 16px;
+  padding-inline: 16px;
 
   font-size: 32px;
   font-weight: 900;

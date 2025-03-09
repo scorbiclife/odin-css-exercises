@@ -17,15 +17,18 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  gap: 52px;
 }
 
 .info-list {
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
+  gap: 52px;
+  padding-left: 0;
 }
 
 .info-list > * {
-  flex: 1 1 0;
+  flex: 0 1 200px;
 }
 
 .info-container {

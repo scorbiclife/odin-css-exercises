@@ -29,4 +29,15 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+.dropdown-menu {
+  transform-origin: 0 0;
+  transform: scaleY(1);
+  transition: display, transform cubic-bezier(0.19, 0.67, 0.59, 1.18);
+  transition-duration: 0.5s;
+}
 
+@starting-style {
+  .dropdown-menu {
+    transform: scaleY(0);
+  }
+}
